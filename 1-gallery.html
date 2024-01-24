@@ -4,15 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
-    <script type="module" crossorigin src="/vanilla-app-template/assets/modulepreload-polyfill-ec808ebb.js"></script>
-  </head>
-  <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to GALLERY</h1>
-    </section>
+    <title>Gallery</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-c9def49e.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-a0171576.css">
+  </head>
+
+  <body>
+    <p><a href="index.html">Go back</a></p>
+
+    <ul class="gallery"></ul>
+
+    <script src="./js/gallery-arr.js"></script>
     
   </body>
 </html>
