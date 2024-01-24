@@ -1,3 +1,5 @@
+import { images } from './gallery-arr.js';
+
 // ================================================================
 
 const gallery = document.querySelector('.gallery');
