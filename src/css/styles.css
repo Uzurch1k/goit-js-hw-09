@@ -39,6 +39,7 @@ p > a {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid transparent;
 }
 p > a:hover {
   background-color: rgba(46, 47, 66, 0.8);
@@ -50,4 +51,5 @@ p > a:hover {
 p > a:active {
   transform: translate(0, 1px);
   background-color: #8c8c8c;
+  box-shadow: none;
 }
