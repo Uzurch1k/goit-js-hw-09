@@ -2,6 +2,9 @@
 
 import { images } from './gallery-arr.js';
 
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 // ================================================================
 
 const gallery = document.querySelector('.gallery');
@@ -18,11 +21,6 @@ function createGalleryItems() {
     .join('');
 }
 gallery.innerHTML = createGalleryItems();
-
-// ================================================================
-
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
 
 // ================================================================
 

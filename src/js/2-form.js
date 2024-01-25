@@ -9,7 +9,7 @@ const storageKey = 'feedback-form-state';
 form.addEventListener('input', onFormInput);
 
 function onFormInput() {
-  const email = form.elements.email.value;
+  const email = form.elements.email.value.trim();
   const message = form.elements.message.value.trim();
 
   const localObj = {
@@ -49,7 +49,7 @@ form.addEventListener('submit', onFormSubmit);
 function onFormSubmit(e) {
   e.preventDefault();
 
-  const email = form.elements.email.value;
+  const email = form.elements.email.value.trim();
   const message = form.elements.message.value.trim();
 
   if (!email || !message) {
